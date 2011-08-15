@@ -37,8 +37,11 @@ Example Usage
    mkdir "Carroll - Alice in Wonderland"
    cd "Carroll - Alice in Wonderland"
    wget http://example.com/alice.epub
-   caliload db_add  # load epub file 
-   # *** use Calibre to edit the the new record, set tags, etc.
+   caliload db_add  # load epub file
+   
+   # Use Calibre to edit the the new record, set tags, etc.
+   # Then come back here.
+   
    caliload db_meta_pull  # push metadata from database to all other
                           # copies of content and metadata
 
